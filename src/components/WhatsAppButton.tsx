@@ -53,7 +53,7 @@ export default function WhatsAppButton() {
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="relative w-14 h-14 rounded-full bg-gold-500 flex items-center justify-center shadow-lg shadow-[0_12px_24px_rgba(102,87,0,0.18)] hover:scale-110 transition-transform duration-300 animate-whatsapp-pulse"
+        className="relative w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-lg shadow-[0_12px_24px_rgba(37,211,102,0.25)] hover:bg-[#20BD5A] hover:scale-110 transition-all duration-300 animate-whatsapp-pulse"
         aria-label="تواصل عبر واتساب"
       >
         <MessageCircle className="w-7 h-7 text-white" fill="white" strokeWidth={0} />
